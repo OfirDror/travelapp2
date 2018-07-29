@@ -1,0 +1,8 @@
+<span class="trips">
+  <div class="trip" *ngFor="let trip of tripList">
+    Trip Name: {{trip.name}}
+    <br> Destination: {{ trip.city}}, {{ trip.country}}
+    <br> Dates: {{ trip.fromDate}} - {{ trip.toDate}}
+    <img class="delete" src="assets/delete.png" title="Remove This Trip" (click)="removeTrip(trip)" />
+  </div>
+</span>

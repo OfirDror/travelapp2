@@ -1,0 +1,23 @@
+.trips {
+    position: absolute;
+    top: 30%;
+    left: 29%;
+    width: 800px;
+    height: 800px;
+}
+
+.trip {
+    display: block;
+    margin: 15px;
+    width: 580px;
+    height: 120px;
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+}
+
+.delete {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
